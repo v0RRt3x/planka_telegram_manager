@@ -7,7 +7,7 @@ from aiogram import Bot, Dispatcher, types, F
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, CallbackQuery
 from aiogram.filters import Command
 from html import escape
-from env import TOKEN, ALLOWED_USERS, BASE_URL, USERNAME, PASSWORD
+from config import TOKEN, ALLOWED_USERS, BASE_URL, USERNAME, PASSWORD
 
 dp = Dispatcher()
 
@@ -17,7 +17,8 @@ dp = Dispatcher()
 # fix diag
 # GLOBAL (MOVE FROM HTML TO MARKDOWN2)
 # Fix shown time
-
+# Add <>spoiler<> to additional info 
+# Add reminder
 ################################---------------MAIN------------########################################
 board_id = ''
 
